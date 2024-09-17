@@ -5,9 +5,6 @@ import streamlit as st
 import os
 from datetime import datetime
 
-sns.set(style='dark')
-
-
 cwd = os.getcwd()
 hour_path = os.path.join(cwd, "dashboard", "hour_cleaned.csv")
 day_path = os.path.join(cwd, "dashboard", "day_cleaned.csv")
