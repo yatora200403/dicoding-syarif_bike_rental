@@ -15,9 +15,10 @@ min_date = datetime.strptime(day_df.date.min(), '%Y-%m-%d')
 max_date = datetime.strptime(day_df.date.max(), '%Y-%m-%d')
 
 with st.sidebar:
-    st.image('https://github.com/dicodingacademy/assets/raw/main/logo.png')
+    st.header("Owner")
+    st.image(f"{cwd}/dashboard/darth_vader_cat.jpg")
     st.date_input(
-        label="Rentan Waktu", 
+        label="Rentan Waktu",
         min_value=min_date,
         max_value=max_date,
         value=[min_date,max_date]
