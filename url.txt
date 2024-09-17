@@ -1,0 +1,2 @@
+streamlit cloud link:
+https://dicoding-syarifbikerental.streamlit.app
